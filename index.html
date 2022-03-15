@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS My Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+
+  <!--Link to embed google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merriweather:wght@300&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+    <h1>I'm Daryl,</h1>
+    <!-- Inline CSS for specific area -->
+    <h4>a <span class="pro">pro</span>grammer.</h4>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+    <img src="images/profile.png" alt="mountain-image">
+  </div>
+
+  <!-- block elements ( <p> ) can change height/width, use display: inline to immitate span,
+    span cannot change width/height but can use display: block to immitate block elements like
+
+    <p>: display: inline-block for besto f both worlds
+    display: none displays none, takes it out,  visibility: hidden makes it invisible but does not take it out
+
+    relative positional only changes itself. Everything else's position is not affected by the relative positioned item
+    position: relative does not do anything byitself, needs left/right/top/bottom property.
+  -->
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="images/Daryl.png" alt="daryl-profile-pic">
+      <h2>Hello!</h2>
+      <p>I am an aspiring Web Developer aiming to create beautiful websites.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="skills-img" src="images/programming.png" src="" alt="skills-img">
+        <h3>Web Development</h3>
+        <table class="table-center" cellspacing="20">
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  <td>HTML</td>
+                  <td>★★★★</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>★★★★</td>
+                </tr>
+                <tr>
+                  <td>Bootstrap</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>★★★★</td>
+                </tr>
+              </table>
+            </td>
+
+            <td>
+              <table>
+                <tr>
+                  <td>jQuery</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>Unix</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>Node.js</td>
+                  <td>★★★★</td>
+                </tr>
+                <tr>
+                  <td>Express.js</td>
+                  <td>★★</td>
+                </tr>
+              </table>
+            </td>
+
+            <td>
+              <table>
+                <tr>
+                  <td>EJS</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>UNIX</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>APIs</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>Git</td>
+                  <td>★★★★</td>
+                </tr>
+              </table>
+            </td>
+
+            <td>
+              <table>
+                <tr>
+                  <td>SQL</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>MongoDB</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>Mongoose</td>
+                  <td>★★★</td>
+                </tr>
+                <tr>
+                  <td>React.js</td>
+                  <td>★★★★</td>
+                </tr>
+              </table>
+            </td>
+
+          </tr>
+        </table>
+      </div>
+      <div class="skill-row">
+        <h3>Hobbies</h3>
+        <img class="hobbies-img" src="images/geforce-giphy.gif" alt="hobbies-img">
+        <p>I love playing online games where I can spend time with friends.</p>
+        <p>I also enjoy watching anime as well!</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p class="contact-message">
+        Interested in my work? Contact me and let me help you build something amazing!
+      </p>
+      <a class="btn" href="mailto:daryl.ortiz@gmail.com">CONTACT ME</a>
+
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/darylgortiz/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© Daryl Ortiz</p>
+  </div>
+
+</body>
+
+</html>

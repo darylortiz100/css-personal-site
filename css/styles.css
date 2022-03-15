@@ -1,0 +1,179 @@
+/* Font Families downloaded from index.html
+
+font-family: 'Architects Daughter', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif; */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.top-container {
+  background-color: #1A374D;
+  position: relative;
+  padding-top: 100px;
+  font-weight: normal;
+}
+
+.middle-container {
+  background-color: white;
+  text-align: center;
+  color: #406882;
+  margin-bottom: 100px;
+}
+
+.bottom-container {
+  color: #B1D0E0;
+  background-color: #6998AB;
+  padding: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/* text-align: center only works for inline blocks
+    if using width: X?; use auto: 0 auto 0 auto example to center ( clock wise numbers ) OR (top bottom) then (left right) 0 auto example.
+*/
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 10rem;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 0;
+  /* line-height: 2; a challenge */
+}
+
+/* rem size takes after root, it is the most adaptable and reliable */
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  color: #406882;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #6998AB;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #B1D0E0;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.number {
+  text-decoration: underline;
+  color: blue;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.table-center {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-img {
+  padding: 0;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10%;
+  display: block;
+  text-align: center;
+}
+
+.hobbies-img {
+  margin-left: 50px;
+  width: 40%;
+  float: right;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  margin: 100px 0 50px 0;
+  width: 25%;
+  height: 25%;
+}
+
+.btn {
+  background: #6998AB;
+  background-image: linear-gradient(to bottom, #6998AB, #B1D0E0);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 3px #666666;
+  -moz-box-shadow: 0 1px 3px #666666;
+  box-shadow: 0 1px 3px #666666;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  margin: 50px;
+}
+
+.btn:hover {
+  background: white;
+  background-image: linear-gradient(to bottom, #B1D0E0, white);
+  text-decoration: none;
+  color: white;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a {
+  color: #B1D0E0;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-size: 105%;
+}
+
+.copyright {
+  position: fixed;
+  color: white;
+  font-size: 90%;
+  bottom: 0;
+  left: 20;
+}
